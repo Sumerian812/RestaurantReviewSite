@@ -1,0 +1,592 @@
+
+#map {
+    height: 700px;
+    width: 100%;
+}
+
+#streetView {
+    height: 100%;
+    width: 450px;
+}
+
+.overlap {
+    position: absolute;
+    width: 300px;
+    height: 600px;
+    padding: 20px;
+    overflow-y: scroll; 
+    margin-top: 50px;
+    background: white;
+    text-align: center;
+    margin-left: 10px;
+    border-radius: 2px;
+    box-shadow: 5px 5px 5px #888888;
+}
+
+#filter {
+    width: 98%;
+    margin-bottom: 10px;
+}
+
+#list {
+    cursor: pointer;
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.8em;
+} 
+
+.list-group {
+    padding-bottom: 30px;
+}
+
+.container-fluid {
+    height: 700px;
+}
+#mapContainer {
+    height: 700px;
+}
+
+footer .container-fluid {
+    height: 300px;
+}
+
+.bgimage {
+    background: url('../assets/background.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.bgimage h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 9em;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #2de9ea;
+    position: relative;
+    top: 250px;
+    text-shadow: 2px 5px 5px black;
+}
+
+.bgimage h2 {
+    font-family: 'Raleway', sans-serif;
+    position: relative;
+    top: 250px;
+    color:white;
+    font-size: 4em;
+    text-shadow: 2px 5px 5px black;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.bgimage button {
+    position: relative;
+    top: 250px;
+    color: white !important;
+}
+
+.bgimage button:hover {
+
+  text-shadow: 1px 1px 2px whitesmoke; 
+}
+
+
+#rateButton {
+    background-color: #1fb6b6 !important;
+    width: 100%;
+}
+
+#addButton {
+    background-color: #1fb6b6 !important;
+    position: absolute;
+    top: 1960px;
+    right: 15px;
+    z-index: 2;
+    box-shadow: 5px 5px 5px #888888;
+}
+
+
+.active {
+    background-color:  #1fb6b6 !important;
+}
+
+#amount {
+    
+    font-family: 'Raleway', sans-serif;
+    font-size: 1em;
+}
+
+#restaurantInfoModal .modal-content {
+    padding-left: 30px; 
+    padding-right: 30px; 
+}
+
+#restaurantInfoModal .modal-header {
+    padding-left: 0px;
+}
+
+#reviews {
+    height: 300px;
+    width: 300px;
+    overflow-y: scroll;
+    overflow-x: hidden;  
+    padding-left: 20px;
+}
+
+.modal {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1em;
+}
+
+#slideshow {
+    height: 700px;
+}
+
+.carousel-inner {
+    max-height: 700px;
+    width:100%;
+}
+
+.carousel-caption h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 5em;
+    text-shadow: 10px 10px 20px #1fb6b6;
+    text-align: left;
+}
+
+.carousel-caption p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2em;
+    text-shadow: 2px 5px 5px black;
+    text-align: right;
+    font-style: italic;
+}
+
+@media only screen and (min-width : 1200px) {
+    .carousel-caption
+    {
+      top: 46%;
+    }
+}
+
+#feature {
+    padding: 60px 20px 60px 20px;
+    text-align: center;
+    background-color: #35bbbb;
+   
+}
+
+#feature .featureBlock {
+    display: inline-block;
+    padding: 50px 30px 10px 30px;
+    margin: auto;  
+}
+
+#feature .featureBlock p {
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 15px;
+    text-transform: uppercase;
+    font-size: 1em;
+    text-align: left;
+    vertical-align: text-bottom;
+    color: white;
+}
+
+#feature .featureBlock i {
+    color: white; 
+}
+
+#tagline {
+    height: 260px;
+    background-color: #35bbbb;
+}
+
+#tagline .taglineBlock {
+    display: inline-block;
+    width: 600px;  
+    margin-left: 30px;
+}
+
+#tagline img {
+    display: inline-block;
+    border-radius: 50%;
+    height: 150px;  
+    text-align: left; 
+    margin: 10px;  
+    position: relative;
+    top: 30px;
+}
+
+#tagline p {
+    display: inline-block; 
+    width: 300px;
+    height: 100px;
+    margin-left: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    vertical-align: text-top;
+    color: white;
+    font-style: italic;   
+}
+
+#tagline .avatarName { 
+    font-size: 1.5em;
+    text-align: left;
+    font-style: normal;
+}
+
+footer {
+    background-color: #35bbbb;
+}
+
+footer .fab {
+    margin: 90px 20px 0px 20px;
+    color: white;
+}
+
+footer .fab:hover {
+    text-shadow: 2px 5px 5px black;
+}
+
+footer #contactDiv {
+    width: 600px;
+    font-family: 'Raleway', sans-serif;
+    color: white !important;
+    text-transform: uppercase;
+    margin-top: 90px;
+    margin-left: 100px;
+    font-size: 1.1em;
+}
+.sticky {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* //////////////////////////For  screens that are 1024 px or less \\\\\\\\\\\\\\\\\\ */
+@media screen and (max-width: 1024px) and (orientation : landscape) {
+    #feature {
+        padding: 10px;
+    }
+
+    .fas {
+        font-size: 3em !important;
+        margin-bottom: 10px;
+    }
+    #feature .featureBlock{
+        padding: 25px 25px 25px 25px;
+    }
+    #feature .featureBlock p {
+        font-size: 0.8em;
+        padding: 0px;
+        width: 100%;
+        text-align: center;
+    }
+    #slideshow{
+        background-color: #35bbbb;
+        height: 700px;
+    }
+    #tagline {
+        text-align: center;
+    }
+
+    #tagline .taglineBlock {
+        width: 45%;  
+        margin: auto;
+    }
+    #tagline img {
+        height: 120px;  
+        top: 10px;
+    }
+    #tagline p {
+        display: inline-block; 
+        width: 80%;
+        padding: 10px;
+        margin: 0px;
+        font-size: 0.9em;  
+    }
+    footer .container-fluid{
+        height: 250px;
+    }
+    footer .fab {
+        margin: 35px 20px 0px 20px;
+        font-size: 3em;
+    }
+    footer #contactDiv {
+        margin: 35px 0px 0px 50px;
+        font-size: 1em;
+    }
+    .overlap {
+        width: 250px;
+    }
+
+    #addButton {
+        top: 1910px;
+    }
+    .navbar {
+        text-transform: uppercase;
+    }
+}
+
+@media screen and (max-width: 1024px) and (orientation : portrait) {
+    .bgimage h1 {
+        font-size: 7em;
+        top: 280px;
+    }
+    .bgimage h2 {
+        top: 280px;
+        font-size: 3em;
+    }
+    .bgimage button {
+        top: 280px;
+    }
+    
+    .fas {
+        font-size: 3em !important;
+        margin-bottom: 10px;
+    }
+    #feature .featureBlock{
+        padding: 15px 15px 15px 15px;
+    }
+    #feature .featureBlock p {
+        font-size: 0.8em;
+        padding: 0px;
+        width: 100%;
+        text-align: center;
+    }
+  
+    #slideshow {
+        height: 550px;
+        background-color: #35bbbb;
+    }
+    #tagline {
+        text-align: center;
+    }
+
+    #tagline .taglineBlock {
+        width: 45%;  
+        margin: auto;
+    }
+    #tagline img {
+        height: 120px;  
+        top: 10px;
+    }
+    #tagline p {
+        display: inline-block; 
+        width: 80%;
+        padding: 10px;
+        margin: 0px;
+        font-size: 0.9em;  
+    }
+    .overlap {
+        width: 250px;
+    }
+
+    #addButton {
+        top: 1820px;
+    }
+    #streetView {
+        width: 250px;
+    }
+    #reviews {
+        width: 200px;
+    }
+    footer .container-fluid{
+        height: 200px;
+    }
+    footer .fab {
+        margin: 35px 20px 0px 20px;
+        font-size: 2.5em;
+    }
+    footer #contactDiv {
+        margin: 35px 0px 0px 50px;
+        font-size: 1em;
+        width: 400px;
+    }
+    .navbar {
+        text-transform: uppercase;
+    }
+}
+
+
+/* //////////////////////////For  screens that are 750px or less \\\\\\\\\\\\\\\\\\ */
+@media screen and (max-width: 750px) and (orientation : portrait) {
+    .container-fluid {
+        height: 400px;
+    }
+
+    .bgimage h1 {
+        font-size: 5em;
+        top: 80px;
+    }
+    
+    .bgimage h2 {
+        top: 80px;
+        font-size: 1em;
+    }
+
+    .bgimage button {
+        top: 80px;
+    }
+    #feature {
+        padding: 10px;
+    }
+
+    .fas {
+        font-size: 1.2em !important;
+        margin-bottom: 10px;
+    }
+    #feature .featureBlock{
+        padding: 15px 15px 15px 15px;
+    }
+    #feature .featureBlock p {
+        font-size: 0.8em;
+        padding: 0px;
+        width: 100%;
+        text-align: center;
+    }
+    #slideshow {
+        height: 260px;
+        background-color: #35bbbb;
+    }
+    .carousel-caption h1 {
+        font-size: 2em;
+    }
+    
+    .carousel-caption p {
+        font-size: 1em;
+    }
+    #tagline {
+        height: 500px;
+    }
+    #tagline .taglineBlock {
+        width: 100%;  
+        margin: 0px;
+    }
+    
+    #tagline img {
+        border-radius: 50%;
+        height: 100px;  
+        margin-left: 200px;  
+        top: 10px;
+    }
+    
+    #tagline p {
+        display: inline-block; 
+        width: 100%;
+        padding: 10px;
+        margin: 0px;
+        font-size: 0.9em;    
+    }
+    footer .container-fluid {
+        text-align: center;
+        height: 300px;
+        margin-bottom: 20px;
+    }
+    footer #icons {
+        font-size: 0.9em;
+        text-align: center;
+        margin: auto;
+    }
+    footer #contactDiv {
+        margin: 35px 20px 0px 20px;
+        font-size: 0.9em;
+    }
+
+    #streetView {
+        height: 200px;
+        width: 350px;
+    }
+    #reviews {
+        height: 150px;
+        padding-top: 10px;
+    }
+
+    .overlap {
+        width: 95%;
+    }
+
+    .modal-body .custom-control-label, .custom-radio {
+        font-size: 0.9em !important;
+        display: inline-block;
+        width: 100%;
+    }
+    .navbar {
+        text-transform: uppercase;
+    }
+    #streetView {
+        width: 330px;
+    }
+    #reviews {
+        width: 300px;
+    }
+}
+@media screen and (max-width: 800px) and (orientation : landscape) {
+    .container-fluid {
+        height: 415px;
+    }
+    .bgimage h1 {
+        font-size: 6em;
+        top: 90px;
+    }
+    
+    .bgimage h2 {
+        top: 90px;
+        font-size: 3em;
+    }
+    .bgimage button {
+        top: 90px;
+    }
+    #feature {
+        text-align: center;
+        padding: 10px;
+    }
+
+    .fas {
+        font-size: 1.2em !important;
+        margin-bottom: 10px;
+    }
+    #feature .featureBlock{
+        padding: 15px 15px 15px 15px;
+    }
+    #feature .featureBlock p {
+        font-size: 0.8em;
+        padding: 0px;
+        width: 100%;
+        text-align: center;
+    }
+    #tagline {
+        height: 300px;
+    }
+    #slideshow {
+        height: 520px;
+        background-color: #35bbbb;
+    }
+    .navbar {
+        text-transform: uppercase;
+    }
+    footer .container-fluid {
+        text-align: center;
+        height: 200px;
+        margin-bottom: 20px;
+    }
+    footer #icons {
+        font-size: 0.9em;
+        text-align: center;
+        margin: auto;
+    }
+    footer #contactDiv {
+        margin: 35px 20px 0px 20px;
+        font-size: 0.9em;
+        width: 300px;
+    }
+    #streetView {
+        width: 250px;
+    }
+    #reviews {
+        width: 200px;
+    }
+} 
+ 

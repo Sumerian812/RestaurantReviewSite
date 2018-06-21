@@ -1,0 +1,83 @@
+[
+    {
+       "restaurantName":"Bronco",
+       "address":"39 Rue des Petites Écuries, 75010 Paris",
+       "lat":48.11241936630925,
+       "long":11.522971717938162,
+       "ratings":[
+          {
+             "stars":4,
+             "comment":"Great! But not many veggie options."
+          },
+          {
+             "stars":5,
+             "comment":"My favorite restaurant!"
+          }
+       ]
+    },
+    {
+       "restaurantName":"Babalou",
+       "address":"4 Rue Lamarck, 75018 Paris",
+       "lat":48.11273455207761,
+       "long":11.537605850323416,
+       "ratings":[
+          {
+             "stars":5,
+             "comment":"Tiny pizzeria next to Sacre Coeur!"
+          },
+          {
+             "stars":3,
+             "comment":"Meh, it was fine."
+          }
+       ]
+    },
+    {
+        "restaurantName":"Rimini",
+        "address":"Weinbergstraße 3, 81369 München",
+        "lat":48.09817520001549,
+        "long":11.513636661254856,
+        "ratings":[
+           {
+              "stars":4,
+              "comment":"Great portion size! But the place is quite small."
+           },
+           {
+              "stars":5,
+              "comment":"Best Cabonara of my life!"
+           }
+        ]
+     },
+     {
+        "restaurantName":"Poseidon",
+        "address":"Sandbreitenstraße 11, 81369 München",
+        "lat":48.10840680497525,
+        "long":11.524768293084662,
+        "ratings":[
+           {
+              "stars":3,
+              "comment":"Unfriendly staff!"
+           },
+           {
+              "stars":2,
+              "comment":"Food was cold."
+           }
+        ]
+     },
+     {
+        "restaurantName":"Harvest Kitchen",
+        "address":"Spitzwegerichweg 3, 81369 München",
+        "lat":48.11146560540492,
+        "long":11.533484601219243,
+        "ratings":[
+           {
+              "stars":5,
+              "comment":"Many vegetarian options."
+           },
+           {
+              "stars":5,
+              "comment":"Fresh ingredients, friendly staff."
+           }
+        ]
+     }
+     
+ ]
